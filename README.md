@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Carhub](screenshots/car-hub-combined.png)
 
-## Getting Started
+# CarHub - NextJS 13 (App Router) | React | TypeScript | TailwindCSS
 
-First, run the development server:
+This is a Car Information App that provides details about cars using the Cars API by API-Ninjas of RapidAPI. It incorporates headlessUI for seamless user interface components and imagin.studio for high-quality car images.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live site URL: [https://car-hub-showcase-8bic-kennylun123.vercel.app/](https://car-hub-showcase-8bic-kennylun123.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What I learned
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Static Typing of TypeScript, enable to define variable types and catch type-related errors during development.
+- TailwindCSS, utility first approach and we can also define reuseable general style class as a custom bundle utility.
+- (NextJS 13) Dynamic content delivery on server side rendering by utilizing searchParams
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Libraries and APIs
 
-## Learn More
+- [Cars by API-Ninjas, RapidAPI](https://rapidapi.com/apininjas/api/cars-by-api-ninjas/)
+- [headlessUI](https://headlessui.com/)
+  - Combobox
+  - Transition
+  - Dialog(modal)
+  - Listbox(select / options)
+- [Imagin Studio (Car image api)](https://www.imagin.studio/solutions/api)
 
-To learn more about Next.js, take a look at the following resources:
+## Acknowledgments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks to [JavaScript Mastery](https://www.jsmastery.pro/) for this amazing design inspiring me to use NextJS, TypeScript and Tailwind together for the first time.
